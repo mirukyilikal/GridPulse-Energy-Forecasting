@@ -1,0 +1,19 @@
+requirements = """
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+scikit-learn
+xgboost
+joblib
+"""
+
+with open(
+    "/content/gridpulse/requirements.txt",
+    "w"
+) as f:
+    f.write(requirements)
+
+print("requirements.txt saved")
